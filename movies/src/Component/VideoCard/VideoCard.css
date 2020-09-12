@@ -3,7 +3,7 @@
     width: 500px;
     height: 400px;
     padding: 20px;
-    transition: transfrom 100ms;
+    transition: transfrom 100ms ease;
 }
 
 .videoCard>img {
@@ -13,7 +13,7 @@
 }
 
 .videoCard:hover {
-    transform: scale(0.8);
+    transform: scale(1.09);
 }
 
 .videoCard>h2 {

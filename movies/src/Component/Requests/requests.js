@@ -12,6 +12,6 @@ export default {
     fetchSciFi: `/discover/movie?api_key=${API_KEY}&with_genres=878`,
     fetchWestern: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
     fetchAnimation: `/discover/movie?api_key=${API_KEY}&with-genres=16`,
-    fetchTv: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
+    fetchTV: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
 }
 
