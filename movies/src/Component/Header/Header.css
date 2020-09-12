@@ -50,3 +50,13 @@
 .Header_icon:hover>p {
     display: inline;
 }
+
+/* To hide the scrolbar */
+.header::-webkit-scrollbar{ /* For chrome and opera*/
+    display: none;
+}
+
+.header{ /*For IE,edge and FireFox*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
