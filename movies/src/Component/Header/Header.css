@@ -1,9 +1,10 @@
 .header {
     color: white;
     display: flex;
+    height: 50px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     overflow: scroll;
 
@@ -33,7 +34,7 @@
     margin-right: auto;
 }
 
-.Header_iconActive > p {
+.Header_iconActive>p {
     display: inline-flex !important;
 }
 
@@ -51,11 +52,13 @@
 }
 
 /* To hide the scrolbar */
-.header::-webkit-scrollbar{ /* For chrome and opera*/
+.header::-webkit-scrollbar {
+    /* For chrome and opera*/
     display: none;
 }
 
-.header{ /*For IE,edge and FireFox*/
+.header {
+    /*For IE,edge and FireFox*/
     -ms-overflow-style: none;
     scrollbar-width: none;
 }

@@ -14,7 +14,7 @@ class Header extends React.Component{
         return(
             <div className="header">
                 <div className="Header_icons">
-                    <div className="Header_icon Header_iconActive">
+                    <div className="Header_icon Header_icon">
                         <HomeIcon />
                         <p>Home</p>
                     </div>
@@ -45,7 +45,7 @@ class Header extends React.Component{
                     </div>
                 </div>
 
-                <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt=""/>
+                {/* <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt=""/> */}
             </div>
         )
     }
