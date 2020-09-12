@@ -4,6 +4,7 @@ import SubNav from './Component/Header/SubNav';
 import Results from './Component/Results/Results';
 import './Component/App/App.css';
 import requests from './Component/Requests/requests';
+import Footer from './Component/Footer/Footer'
 
 
 
@@ -13,9 +14,10 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <SubNav  setSelectedOption={setSelectedOption}/>
+      <Header />
       <Results  selectedOption={selectedOption}/>
+      <Footer />
     </div>
   );
 }

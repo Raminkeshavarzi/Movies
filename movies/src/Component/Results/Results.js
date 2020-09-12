@@ -23,11 +23,9 @@ function Results ({ selectedOption }) {
 
     return(
         <div className="result">
-            <FlipMove>
-                {movies.map((movie)=>( 
-                    <VideoCard key={movie.id} movie={movie}/>
-                ))}
-            </FlipMove>            
+            {movies.map((movie)=>( 
+                <VideoCard key={movie.id} movie={movie}/>
+            ))}            
         </div>
     );
 }
