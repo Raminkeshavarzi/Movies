@@ -24,6 +24,7 @@
 }
 
 /* Hide the scrolbar */
+
 .nav::-webkit-scrollbar {
     display: none;
     /* For Chrome, Safari, Opera*/
@@ -33,4 +34,3 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-

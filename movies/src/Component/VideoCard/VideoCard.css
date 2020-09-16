@@ -39,7 +39,6 @@
         padding: 0;
         width: 90%;
     }
-
     .videoCard>img {
         height: 300px;
         object-fit: contain;
@@ -48,12 +47,12 @@
 }
 
 /* Large screen */
+
 @media only screen and (max-width: 485px) {
     .videoCard {
         padding: 0;
         width: 90%;
     }
-
     .videoCard>img {
         height: 300px;
         object-fit: contain;
@@ -62,11 +61,11 @@
 }
 
 /* Tablet Screen */
+
 @media only screen and (min-width: 765px) {
     .videoCard {
         width: 500px;
     }
-
     .videoCard>img {
         height: 300px;
         object-fit: contain;
@@ -80,7 +79,6 @@
     .videoCard {
         width: 500px;
     }
-
     .videoCard>img {
         height: 300px;
         object-fit: contain;

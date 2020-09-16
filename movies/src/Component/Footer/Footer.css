@@ -1,7 +1,6 @@
 /* Footer */
 
 footer {
-   
     height: 100px;
     display: flex;
     width: 100%;
@@ -74,11 +73,9 @@ h2:hover>.hideText {
         flex-direction: column-reverse;
         justify-content: center;
     }
-
     .FooterContainer>h2 {
         margin-bottom: 40px;
     }
-
     ul.FooterTabs {
         width: 90%;
         display: flex;
@@ -88,7 +85,6 @@ h2:hover>.hideText {
         font-size: large;
         padding: 0;
     }
-
     a.builtBy:hover {
         color: darkred;
         font-size: 2rem;

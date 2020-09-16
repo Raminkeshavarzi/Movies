@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <SubNav  setSelectedOption={setSelectedOption}/>
-      <Header />
+      {/* <Header /> */} 
       <Results  selectedOption={selectedOption}/>
       <Footer />
     </div>
